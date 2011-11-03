@@ -1,3 +1,9 @@
+# revision 15878
+# category Package
+# catalog-ctan /fonts/concrete
+# catalog-date 2006-12-08 15:31:01 +0100
+# catalog-license knuth
+# catalog-version undef
 Name:		texlive-concrete
 Version:	20061208
 Release:	1
@@ -71,6 +77,7 @@ bundle.
 %doc %{_texmfdistdir}/doc/fonts/concrete/CATALOGUE
 %doc %{_texmfdistdir}/doc/fonts/concrete/Makefile
 %doc %{_texmfdistdir}/doc/fonts/concrete/README
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -81,3 +88,5 @@ bundle.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar fonts doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
