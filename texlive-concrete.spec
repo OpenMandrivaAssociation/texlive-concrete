@@ -5,8 +5,8 @@
 # catalog-license knuth
 # catalog-version undef
 Name:		texlive-concrete
-Version:	20061208
-Release:	10
+Version:	20170414
+Release:	1
 Summary:	Concrete Roman fonts
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/fonts/concrete
