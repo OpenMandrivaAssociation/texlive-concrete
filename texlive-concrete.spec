@@ -5,7 +5,7 @@
 # catalog-license knuth
 # catalog-version undef
 Name:		texlive-concrete
-Version:	20170414
+Version:	20180303
 Release:	1
 Summary:	Concrete Roman fonts
 Group:		Publishing
