@@ -1,6 +1,6 @@
 Name:		texlive-concrete
 Version:	57963
-Release:	1
+Release:	2
 Summary:	Concrete Roman fonts
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/fonts/concrete
