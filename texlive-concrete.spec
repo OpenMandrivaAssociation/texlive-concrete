@@ -3,7 +3,7 @@ Version:	57963
 Release:	2
 Summary:	Concrete Roman fonts
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/fonts/concrete
+URL:		https://www.ctan.org/tex-archive/fonts/concrete
 License:	KNUTH
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/concrete.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/concrete.doc.r%{version}.tar.xz
